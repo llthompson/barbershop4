@@ -4,15 +4,20 @@ body {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    max-width: 936px;
     margin: 0 auto;
+}
+
+.banner {
+    background-color: #4c8f96;
+    height: 130px;
+    width: 100%;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    background-color: #4c8f96;
     height: 130px;
+    max-width: 936px;
     width: 100%;
     margin: 41px auto;
     padding: 0;
@@ -21,12 +26,8 @@ body {
 nav {
     display: flex;
     width: 100%;
-    /* justify-content: flex-end; */
     margin-top: 80px;
-    /* margin-right: 0px; */
     margin-left: 30%;
-    /* margin-right: -50px; */
-    /* overflow: visible; */
 }
 
 
@@ -80,7 +81,7 @@ nav {
 .intro {
     height: 356px;
     max-width: 936px;
-    margin: 50px 0 28px 0;
+    margin: 50px auto 28px;
     border: 2px solid #f0a63d;
     overflow: hidden;
     padding: 0;
@@ -107,7 +108,7 @@ nav {
 
 .photo-row {
     max-width: 936px;
-    margin: 20px 0 0 0;
+    margin: 20px auto 0;
     border-style: solid;
     border-width: 8px;
     border-color: gold;
@@ -151,9 +152,7 @@ nav {
 
 .footer {
     height: 120px;
-    max-width: 936px;
-    margin: 50px auto 0;
+    margin: 50px auto 20px;
     border-style: solid;
-    border-width: 8px;
     border-color: purple;
 }
