@@ -12,23 +12,21 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #4c8f96;
-    height: 154px;
-    width: 0 auto;
+    height: 130px;
+    width: 100%;
     margin: 41px auto;
     padding: 0;
-    border-style: solid;
-    border-width: 8px;
-    border-color: red;
-
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    margin: 80px 40px;
-    border-style: solid;
-    border-width: 8px;
-    border-color: yellow;
+    width: 100%;
+    /* justify-content: flex-end; */
+    margin-top: 80px;
+    /* margin-right: 0px; */
+    margin-left: 30%;
+    /* margin-right: -50px; */
+    /* overflow: visible; */
 }
 
 
@@ -45,51 +43,66 @@ nav {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    border-style: solid;
-    border-width: 8px;
-    border-color: blue
+    border-radius: 5px;
 }
 
-.header>.logo {
-    background-color: aqua;
-    width: 324px;
-    font-family: 'Arimo-Bold';
-    font-size: 24px;
-    font-weight: normal;
+.header>.logo-quartet {
+    background-color: #191d31;
+    width: 270px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
     height: 130px;
     line-height: 130px;
     text-align: center;
-    border-style: solid;
-    border-width: 8px;
-    border-color: violet;
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow-x: visible;
+    position: absolute;
+}
+
+.header>.logo-the {
+    width: 27px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    height: 10px;
+    line-height: 10px;
+    text-align: left;
+    margin-top: 45px;
+    margin-left: 30px;
+    z-index: 2;
 }
 
 .intro {
     height: 356px;
     max-width: 936px;
     margin: 50px 0 28px 0;
-    border-style: solid;
-    border-width: 8px;
-    border-color: purple;
+    border: 2px solid #f0a63d;
     overflow: hidden;
-	padding: 0;
+    padding: 0;
     background-color: #ffffff;
+
 }
 
 .intro img {
-	display: block;
-	float: left;
-	margin: 0 50px 0 0;
-	padding: 0;
+    display: block;
+    float: left;
+    margin: 0 50px 0 0;
+    padding: 0;
 }
- .intro h1 {
-	color: #f4df1a;
-	font-family: 'ChangaOne';
-	font-size: 40px;
-	font-weight: normal;
-	margin: 0;
-	line-height: 50px;
-	padding: 110px 30px 30px;
+
+.intro h1 {
+    color: #f4df1a;
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 50px;
+    padding: 110px 30px 30px;
 }
 
 .photo-row {
