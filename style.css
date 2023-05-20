@@ -71,6 +71,25 @@ nav {
     border-style: solid;
     border-width: 8px;
     border-color: purple;
+    overflow: hidden;
+	padding: 0;
+    background-color: #ffffff;
+}
+
+.intro img {
+	display: block;
+	float: left;
+	margin: 0 50px 0 0;
+	padding: 0;
+}
+ .intro h1 {
+	color: #f4df1a;
+	font-family: 'ChangaOne';
+	font-size: 40px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 50px;
+	padding: 110px 30px 30px;
 }
 
 .photo-row {
@@ -114,7 +133,7 @@ nav {
     grid-row: 2/3;
     border-style: solid;
     border-width: 8px;
-    border-color:dodgerblue
+    border-color: dodgerblue
 }
 
 .footer {
