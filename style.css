@@ -81,8 +81,8 @@ nav {
 .intro {
     height: 356px;
     max-width: 936px;
-    margin: 50px auto 28px;
-    border: 2px solid #f0a63d;
+    margin: 63px auto 28px;
+    border: 2px solid #5eb3bd;
     overflow: hidden;
     padding: 0;
     background-color: #ffffff;
@@ -97,7 +97,7 @@ nav {
 }
 
 .intro h1 {
-    color: #f4df1a;
+    color: #000000;
     font-family: 'Changa One', cursive;
     font-size: 40px;
     font-weight: normal;
@@ -108,9 +108,9 @@ nav {
 
 .photo-row {
     max-width: 936px;
-    margin: 20px auto 0;
+    margin: 50px auto 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -118,6 +118,7 @@ nav {
     border: 5px solid #5eb3bd;
     border-radius: 5px;
     box-shadow: 0px 0px 50px 0px #00000033;
+    /* margin: 0 0px; */
 }
 
 h2 {
@@ -126,8 +127,13 @@ h2 {
     font-size: 18px;
     font-weight: normal;
     margin: 0;
-    padding: 10px 0 5px;
+    padding: 30px 0 0px;
     text-transform: capitalize;
+}
+
+p {
+    margin-top: 5px;
+    
 }
 
 .featured {
