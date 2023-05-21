@@ -10,7 +10,7 @@ body {
 .banner {
     background-color: #4c8f96;
     height: 140px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .header {
@@ -18,14 +18,13 @@ body {
     flex-direction: row;
     height: 130px;
     max-width: 936px;
-    width: 100%;
     margin: 41px auto;
     padding: 0;
 }
 
 nav {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     margin-top: 70px;
     margin-left: 30%;
 }
@@ -49,7 +48,7 @@ nav {
 
 .header>.logo-quartet {
     background-color: #191d31;
-    width: 270px;
+    max-width: 270px;
     color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 54px;
@@ -65,7 +64,7 @@ nav {
 }
 
 .header>.logo-the {
-    width: 27px;
+    max-width: 27px;
     color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 24px;
@@ -118,7 +117,6 @@ nav {
     border: 5px solid #5eb3bd;
     border-radius: 5px;
     box-shadow: 0px 0px 50px 0px #00000033;
-    /* margin: 0 0px; */
 }
 
 h2 {
@@ -143,7 +141,7 @@ p {
 
 .featured {
     max-width: 936px;
-    height: 653px;
+    height: 603px;
     margin: 50px auto 0;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -160,11 +158,16 @@ h3 {
     height: 47px;
     width: 107px;
     letter-spacing: 0.1em;
-    left: 15px;
     line-height: 47px;
     padding: 0 25px;
-    /* position: absolute; */
-    /* top: -14px; */
+    position: absolute;
+    top: -35px;
+}
+
+.featured img {
+    display: block;
+    float: left;
+    margin: 25px 30px 25px 0;
 }
 
 h4 {
@@ -182,13 +185,15 @@ h4 {
     border-width: 5px;
     border-radius: 4px;
     border-color: #5fb3bd;
-    padding: 15px 15px;
+    padding: 30px 15px 0 15px;
     background-color: white;
     margin-right: 20px;
+    position: relative;
 }
 
 .left-column>p {
     max-width: 420px;
+    clear: both;
 }
 
 .right-column>.article {
@@ -198,7 +203,8 @@ h4 {
     border-width: 5px;
     border-radius: 4px;
     border-color: #5fb3bd;
-    padding: 15px 15px;
+    height: 183px;
+    padding: 60px 15px 15px 15px;
     background-color: #4c8f96;
 	position: relative;
     margin-bottom: 25px;
@@ -259,7 +265,7 @@ h4 {
 .footer {
     display: block;
     height: 60px;
-    margin: 50px auto 50px;
+    margin: 50px auto 40px;
     background-color: #4c8f96;
     color: #ededed;
     font-size: 12px;
