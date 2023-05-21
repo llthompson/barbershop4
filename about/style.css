@@ -26,7 +26,7 @@ body {
 
 .logo-quartet {
     background-color: #191d31;
-    max-width: 280px;
+    width: 270px;
     color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 54px;
@@ -38,7 +38,7 @@ body {
     margin-top: 25px;
     margin-left: 0px;
     overflow-x: visible;
-    position: fixed;
+    position: absolute;
     z-index: 4;
 }
 
