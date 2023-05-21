@@ -1,3 +1,6 @@
+
+/* header css */
+
 body {
     background-color: #ededed;
     line-height: 1;
@@ -14,8 +17,6 @@ body {
     margin-top: 41px;
     z-index: 1;
 }
-
-
 
 .logo {
     max-width: 936px;
@@ -129,6 +130,10 @@ p {
     text-align: center;
     padding-top: 60px;
 }
+
+/* BEGIN MEDIA QUERIES */
+
+
 
 @media (max-width: 400px) {
     nav {
