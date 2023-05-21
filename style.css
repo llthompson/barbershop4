@@ -24,13 +24,8 @@ body {
 
 nav {
     display: flex;
-<<<<<<< HEAD
-    max-width: 100%;
-    margin-top: 70px;
-=======
     width: 100%;
     margin-top: 75px;
->>>>>>> origin
     margin-left: 30%;
 }
 
