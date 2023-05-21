@@ -71,7 +71,7 @@ body {
 }
 
 .has-border {
-    background-color: black;
+    background-color: #191d31;
     color: #ffffff;
     display: inline-block;
     font-size: 16px;
@@ -131,4 +131,43 @@ p {
     font-size: 12px;
     text-align: center;
     padding-top: 60px;
+}
+
+@media (max-width: 400px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-left: 80%;
+        position: relative;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .has-border {
+        line-height: ;
+        font-size: 14px;
+        height: 26px;
+        margin-bottom: 2px;
+    }
+
+    .logo-quartet {
+        width: 220px;
+        font-size: 44px;
+        font-weight: 700;
+        text-transform: uppercase;
+        height: 130px;
+        line-height: 130px;
+        margin-left: 15px;
+    }
+    
+    .logo-the {
+        font-size: 24px;
+        height: 10px;
+        line-height: 30px;
+    }
+    
 }
