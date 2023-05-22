@@ -88,17 +88,9 @@ body {
     color: #ccc;
 }
 
-nav a.transparent {
+.has-border.transparent {
     opacity: 0.5;
-  }
-
- .has-border.transparent {
-    opacity: 0.5;
-  }
-
-/* .has-border:visited {
-    opacity: 0.2;
-} */
+}
 
 /* about content */
 

@@ -85,6 +85,10 @@ body {
     border-radius: 5px;
 }
 
+.has-border.transparent {
+    opacity: 0.5;
+}
+
 /* main content */
 
 .intro {
