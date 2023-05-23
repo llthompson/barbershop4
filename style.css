@@ -104,8 +104,6 @@ body {
 }
 
 .intro img {
-    /* display: block;
-    float: left; */
     margin: 0 50px 0 0;
     padding: 0;
 }
@@ -256,7 +254,6 @@ h4 {
     margin: 0;
     padding: 0;
     position: absolute;
-    /* top: -6%; */
     bottom: -3%;
     z-index: 5;
 }
@@ -268,7 +265,6 @@ h4 {
     letter-spacing: 0.03em;
     min-height: 138px;
     padding: 30px 15px 0 190px;
-    /* position: relative; */
     line-height: 30px;
     text-align: center;
 }
@@ -292,7 +288,6 @@ h4 {
     .intro {
         max-width: 90%;
         display: flex;
-        /* flex-direction: column; */
         flex-wrap: wrap;
         align-content: flex-end;
         justify-content: flex-end;
@@ -303,24 +298,18 @@ h4 {
     .intro h1 {
         font-size: 18px;
         line-height: 24px;
-        /* max-height: 90%; */
         max-width: 20%;
         padding: 0;
         text-align: center;
         padding-right: 20px;
-        /* border: 2px solid rgb(224, 69, 69); */
         z-index: 2;
         align-content: flex-end;
     }
 
     .intro img {
-        /* display: none; */
-        /* z-index: 1; */
-        /* align-content: flex-start; */
         margin: 0;
         position: absolute;
         padding-left: 10px;
-        /* width: 95%; */
     }
 
     nav {
@@ -373,7 +362,6 @@ h4 {
 
     .left-column {
         margin: 0 5%;
-        /* width: 90%; */
     }
 
     .right-column {
@@ -387,17 +375,7 @@ h4 {
         padding: 15px 15px 0 180px;
     }
 
-/* 
-    .right-column>.newsletter {
-        display: flex;
-        
-    }
 
-    .right-column>.newsletter>img {
-        align-content: flex-end;
-        
-        
-    } */
 
 }
 
