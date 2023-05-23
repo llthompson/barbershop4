@@ -307,9 +307,10 @@ h4 {
     }
 
     .intro img {
-        margin: 0;
+        /* margin: 0; */
         position: absolute;
-        padding-left: 10px;
+        padding-left: 0%;
+        /* padding-left: 10px; */
     }
 
     nav {
@@ -375,10 +376,14 @@ h4 {
         padding: 15px 15px 0 180px;
     }
 
-
+.footer {
+    display: none;
+}
 
 }
 
-@media (min-width: 601px) and (max-width: 900px) {}
+@media (min-width: 601px) and (max-width: 890px) {
+    
+}
 
 @media (min-width: 901px) {}
