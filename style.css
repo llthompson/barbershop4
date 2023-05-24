@@ -370,6 +370,89 @@ footer {
     }
 }
 
-@media (min-width: 601px) and (max-width: 890px) {}
+@media (min-width: 601px) and (max-width: 890px) {
+
+    .intro {
+        max-width: 90%;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .intro img {
+        margin: 0;
+        z-index: 1;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-left: 80%;
+        position: relative;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .has-border {
+        font-size: 14px;
+        height: 26px;
+        margin-bottom: 2px;
+    }
+
+    .logo-quartet {
+        width: 220px;
+        font-size: 44px;
+        font-weight: 700;
+        text-transform: uppercase;
+        height: 130px;
+        line-height: 130px;
+        margin-left: 15px;
+    }
+
+    .logo-the {
+        font-size: 24px;
+        height: 10px;
+        line-height: 30px;
+    }
+
+    .photo-row {
+        flex-direction: column;
+        align-content: center;
+        margin: 0;
+    }
+
+    .featured {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        max-width: 90%;
+    }
+
+    .left-column {
+        margin: auto auto 25px auto;
+    }
+
+    .right-column {
+        margin: auto auto 25px auto;
+    }
+
+    .right-column>.newsletter>p {
+        line-height: 20px;
+        font-size: 14px;
+        padding: 15px 15px 0 180px;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+}
+}
 
 @media (min-width: 901px) {}
