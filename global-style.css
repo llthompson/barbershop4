@@ -140,9 +140,11 @@ p {
 
 /* BEGIN MEDIA QUERIES */
 
+/* begin small screen media query */
 
+/* begin media query for header */
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     nav {
         display: flex;
         flex-direction: column;
@@ -178,4 +180,60 @@ p {
         line-height: 30px;
     }
 
+    /* end media query for header */
+
 }
+
+/* end small screen media query */
+
+/* begin medium screen media query */
+
+@media (min-width: 601px) and (max-width: 890px) {
+
+     /* begin media query for header */
+
+     nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-left: 80%;
+        position: relative;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .has-border {
+        font-size: 14px;
+        height: 26px;
+        margin-bottom: 2px;
+    }
+
+    .logo-quartet {
+        width: 220px;
+        font-size: 44px;
+        font-weight: 700;
+        text-transform: uppercase;
+        height: 130px;
+        line-height: 130px;
+        margin-left: 15px;
+    }
+
+    .logo-the {
+        font-size: 24px;
+        height: 10px;
+        line-height: 30px;
+    }
+
+    /* end media query for header */
+
+
+}
+
+/* end medium screen media query */
+
+/* begin large screen media query - or not */
+
+@media (min-width: 901px) {}
