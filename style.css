@@ -155,7 +155,7 @@ p {
 
 .featured {
     max-width: 936px;
-    height: 603px;
+    height: 64%;
     margin: 50px auto 0;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -269,7 +269,7 @@ h4 {
     text-align: center;
 }
 
-.footer {
+footer {
     display: block;
     height: 60px;
     margin: 50px auto 40px;
@@ -287,30 +287,20 @@ h4 {
 
     .intro {
         max-width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: flex-end;
-        justify-content: flex-end;
-
-
     }
 
     .intro h1 {
         font-size: 18px;
         line-height: 24px;
-        max-width: 20%;
-        padding: 0;
+        max-width: 75px;
         text-align: center;
-        padding-right: 20px;
         z-index: 2;
-        align-content: flex-end;
+        position: absolute;
     }
 
     .intro img {
-        /* margin: 0; */
-        position: absolute;
-        padding-left: 0%;
-        /* padding-left: 10px; */
+        margin: 0;
+        z-index: 1;
     }
 
     nav {
@@ -348,8 +338,6 @@ h4 {
         line-height: 30px;
     }
 
-
-
     .photo-row {
         flex-direction: column;
         align-content: center;
@@ -359,15 +347,16 @@ h4 {
     .featured {
         display: flex;
         flex-wrap: wrap;
+        align-content: center;
+        max-width: 90%;
     }
 
     .left-column {
-        margin: 0 5%;
+        margin: auto auto 25px auto;
     }
 
     .right-column {
-        margin: 5% 5%;
-        
+        margin: auto auto 25px auto;
     }
 
     .right-column>.newsletter>p {
@@ -376,14 +365,11 @@ h4 {
         padding: 15px 15px 0 180px;
     }
 
-.footer {
-    display: none;
+    footer {
+        margin-top: auto;
+    }
 }
 
-}
-
-@media (min-width: 601px) and (max-width: 890px) {
-    
-}
+@media (min-width: 601px) and (max-width: 890px) {}
 
 @media (min-width: 901px) {}
