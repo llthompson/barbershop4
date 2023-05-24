@@ -287,7 +287,7 @@ footer {
 
 /* begin media query for header */
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
 
     nav {
         display: flex;
@@ -380,27 +380,16 @@ footer {
 
 /* begin medium screen media query */
 
-@media (min-width: 601px) and (max-width: 890px) {
+@media (min-width: 611px) and (max-width: 890px) {
 
     /* begin media query for header */
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-top: 0;
-        margin-left: 80%;
-        position: relative;
-    }
-
-    nav a {
-        margin-bottom: 10px;
-    }
-
+   
     .has-border {
         font-size: 14px;
         height: 26px;
-        margin-bottom: 2px;
+        padding: 0px 4px 0px 4px;
+        margin-left: 2px;
     }
 
     .logo-quartet {
@@ -418,6 +407,7 @@ footer {
         height: 10px;
         line-height: 30px;
     }
+
 
     /* end media query for header */
 
